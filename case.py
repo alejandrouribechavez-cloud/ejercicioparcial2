@@ -1,17 +1,17 @@
-name=""
-lastname=""
-age=0
-email=""
-password=""
-confirmpass=""
-opcion=0
+name=[]
+lastname=[]
+age=[]
+email=[]
+password=[]
+confirmpass=[]
+opcion=[]
 
-print("Bienvenido al sistema de registro de usuario")
+print("Bienvenido al sistema de registro de cliente")
 print("menu principal")
-print("1. Registrar usuario")
-print("2. ver informacion del usuario")
-print("3. borrar informacion del usuario")
-print("4. modificar informacion del usuario")
+print("1. Registrar cliente")
+print("2. ver informacion del cliente")
+print("3. borrar informacion del cliente")
+print("4. modificar informacion del cliente")
 print("5. salir")
 print("--------------------------------")
 opcion=int(input("Ingrese una opcion: "))
